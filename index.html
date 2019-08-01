@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Color Game</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Color Game Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>
-	The Great <span id="colorDisplay">RGB</span> Color Game
-</h1>
 
-	<div id="container">
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-	</div>
+    <h1>The Great <br><span id="colorDisplay"></span><br> Color Game </h1>
+    <div id="stripe">
+      <button id="reset">NEW COLORS</button>
+      <span id="message"></span>
+      <button class="mode">EASY</button>
+      <button class="mode selected">HARD</button>
+    </div>
+    <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+    <p id="footer">Created By <span id="name">Mahesh Oleti</span></p>
 
-<script type="text/javascript" src="script.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
